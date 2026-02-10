@@ -1,0 +1,13 @@
+package org.ies.tierno.models;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class Customers {
+    private String nif;
+    private String name;
+    private String surname;
+    private Integer zipCode;
+}
