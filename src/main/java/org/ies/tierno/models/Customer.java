@@ -5,8 +5,9 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class AccountsByIban {
-    private String iban;
+public class Customer {
     private String nif;
-    private double balance;
+    private String name;
+    private String surname;
+    private Integer zipCode;
 }
